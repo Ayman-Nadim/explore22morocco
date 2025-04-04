@@ -447,3 +447,16 @@ function App() {
 
 export default App
 
+// import React, { useState } from "react";
+// import SignIn from "./components/LandingPage/AuthPages/SignIn";
+// import SignUp from "./components/LandingPage/AuthPages/SignUp";
+
+// export default function App(){
+
+//   return(
+//     <>
+//       <SignIn/>
+//       <SignUp/>
+//     </>
+//   )
+// }
