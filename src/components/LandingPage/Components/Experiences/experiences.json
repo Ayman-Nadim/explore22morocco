@@ -1,0 +1,32 @@
+[
+    {
+      "title": "Desert Safari",
+      "description": "Experience the magic of the Sahara Desert",
+      "imgSrc": "./img/Desert Safari.jpg"
+    },
+    {
+      "title": "Medina Tours",
+      "description": "Explore the ancient walled cities of Morocco",
+      "imgSrc": "./img/Medina Tours.jpg"
+    },
+    {
+      "title": "Cooking Classes",
+      "description": "Learn to prepare authentic Moroccan cuisine",
+      "imgSrc": "./img/Cooking Classes.jpg"
+    },
+    {
+      "title": "Atlas Mountains",
+      "description": "Hike through breathtaking mountain landscapes",
+      "imgSrc": "./img/Atlas Mountains.jpeg"
+    },
+    {
+      "title": "Quad Biking Adventure",
+      "description": "Ride through dunes and rocky paths for an adrenaline rush",
+      "imgSrc": "./img/Quad Biking Adventure.jpg"
+    },
+    {
+      "title": "Hammam & Spa",
+      "description": "Relax with a traditional Moroccan spa and massage experience",
+      "imgSrc": "./img/Hammam Spa.jpg"
+    }
+]

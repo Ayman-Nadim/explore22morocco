@@ -1,0 +1,27 @@
+[
+    {
+      "city": "Marrakech",
+      "imgSrc": "./img/Kech.jpg"
+    },
+    {
+      "city": "Fes",
+      "imgSrc": "./img/fes.jpg"
+    },
+    {
+      "city": "Chefchaouen",
+      "imgSrc": "./img/chefchaouen.jpg"
+    },
+    {
+      "city": "Essaouira",
+      "imgSrc": "./img/essauria.jpg"
+    },
+    {
+      "city": "Casablanca",
+      "imgSrc": "./img/casa.jpg"
+    },
+    {
+      "city": "Merzouga",
+      "imgSrc": "./img/sahara.jpg"
+    }
+  ]
+  

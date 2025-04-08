@@ -1,0 +1,22 @@
+[
+  {
+    "name": "La Mamounia",
+    "description": "An iconic luxury hotel offering elegant Moroccan design, world-class service, and expansive gardens in the heart of Marrakesh.",
+    "image": "./img/hotelsImg/La Mamounia.jpg"
+  },
+  {
+    "name": "Royal Mansour",
+    "description": "A truly luxurious retreat with private riads, Michelin-starred dining, and impeccable service. The epitome of exclusivity and Moroccan hospitality.",
+    "image": "./img/hotelsImg/Royal Mansour.jpg"
+  },
+  {
+    "name": "Riad Kniza",
+    "description": "A historic 18th-century riad offering personalized service, exquisite Moroccan décor, and a serene atmosphere in the heart of Marrakesh.",
+    "image": "./img/hotelsImg/Riad Kniza.jpg"
+  },
+  {
+    "name": "Kasbah Tamadot",
+    "description": "A luxurious mountain retreat offering panoramic views, traditional Moroccan architecture, and a peaceful escape in the Atlas Mountains.",
+    "image": "./img/hotelsImg/Kasbah Tamadot.jpg"
+  }
+]

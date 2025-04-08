@@ -1,0 +1,22 @@
+[
+    {
+      "name": "La Maison Arabe",
+      "description": "A blend of Moroccan and French cuisine in a beautiful riad. Experience fine dining with an authentic touch of Moroccan culture and charm.",
+      "image": "./img/restaurantsImg/La Maison Arabe.jpg"
+    },
+    {
+      "name": "Dar Essalam",
+      "description": "A historic restaurant offering traditional Moroccan dishes with live music and royal ambiance. Perfect for an immersive cultural experience.",
+      "image": "./img/restaurantsImg/Dar Essalam.jpg"
+    },
+    {
+      "name": "Le Jardin",
+      "description": "A peaceful garden restaurant offering a mix of Moroccan and Mediterranean dishes. Ideal for a relaxing lunch or dinner in the heart of the medina.",
+      "image": "./img/restaurantsImg/Le Jardin.jpg"
+    },
+    {
+      "name": "Nomad",
+      "description": "Modern Moroccan cuisine served on a trendy rooftop with stunning views. A perfect blend of style, fresh ingredients, and breathtaking vistas.",
+      "image": "./img/restaurantsImg/Nomad.jpg"
+    }
+]

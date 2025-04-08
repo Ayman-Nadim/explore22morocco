@@ -1,0 +1,17 @@
+[
+    {
+      "name": "Mehdi",
+      "image": "./img/AgentGuide1.png",
+      "text": "Hello, my name is Mehdi, your AI Agent Guide. Tell me where you'd like to explore today in Morocco!"
+    },
+    {
+      "name": "Sara",
+      "image": "./img/AgentGuide2.png",
+      "text": "Hi, I'm Sara! I can help you navigate the best places in Morocco. Where are we going today?"
+    },
+    {
+      "name": "Youssef",
+      "image": "./img/AgentGuide3.jpg",
+      "text": "Hello, I'm Youssef. Let's explore Morocco together. What’s your next adventure?"
+    }
+]  
