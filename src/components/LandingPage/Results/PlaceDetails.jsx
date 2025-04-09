@@ -32,6 +32,7 @@ const PlaceDetails = ({ data }) => {
           src={restaurant.photos[0]}
           alt={restaurant.name}
           className="rounded-xl object-cover h-40 w-full"
+          onError={(e) => e.target.src = 'https://dessertdivine.com.au/wp-content/uploads/2022/02/Image-Not-Available.png'} // Image de remplacement en cas d'erreur
         />
         <h3 className="text-xl font-semibold text-orange-400 font-serif">{restaurant.name}</h3>
 
@@ -52,7 +53,6 @@ const PlaceDetails = ({ data }) => {
             {/* Modal Content */}
             <div className="flex justify-between items-center">
               <h1 className="text-3xl font-bold text-orange-400">{restaurant.name}</h1>
-              {/* Close Modal Button (❌) */}
               <button
                 onClick={toggleModal}
                 className="text-2xl text-red-600 hover:text-red-800 transition-all"
@@ -95,6 +95,7 @@ const PlaceDetails = ({ data }) => {
                   src={photoUrl}
                   alt={`Photo ${index + 1}`}
                   className="rounded-xl object-cover h-40 w-full"
+                  onError={(e) => e.target.src = 'https://dessertdivine.com.au/wp-content/uploads/2022/02/Image-Not-Available.png'} // Image de remplacement en cas d'erreur
                 />
               ))}
             </div>
@@ -160,6 +161,7 @@ const PlaceDetails = ({ data }) => {
                         src={review.profile_photo_url}
                         alt={review.author_name}
                         className="w-10 h-10 rounded-full"
+                        onError={(e) => e.target.src = 'https://previews.123rf.com/images/urfandadashov/urfandadashov1806/urfandadashov180601827/150417827-photo-not-available-vector-icon-isolated-on-transparent-background-photo-not-available-logo-concept.jpg'} // Image de remplacement pour les profils des avis
                       />
                       <div>
                         <p className="font-medium">{review.author_name}</p>
@@ -181,23 +183,23 @@ const PlaceDetails = ({ data }) => {
                 ))}
               </div>
 
-{/* Pagination with Icons */}
-<div className="flex justify-center space-x-4 mt-4">
-  <button
-    onClick={() => handlePaginationReviews(currentPageReviews - 1)}
-    disabled={currentPageReviews === 1}
-    className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-all"
-  >
-    <FaArrowLeft />
-  </button>
-  <button
-    onClick={() => handlePaginationReviews(currentPageReviews + 1)}
-    disabled={endIndexReviews >= restaurant.reviews.length}
-    className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-all"
-  >
-    <FaArrowRight />
-  </button>
-</div>
+              {/* Pagination with Icons */}
+              <div className="flex justify-center space-x-4 mt-4">
+                <button
+                  onClick={() => handlePaginationReviews(currentPageReviews - 1)}
+                  disabled={currentPageReviews === 1}
+                  className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-all"
+                >
+                  <FaArrowLeft />
+                </button>
+                <button
+                  onClick={() => handlePaginationReviews(currentPageReviews + 1)}
+                  disabled={endIndexReviews >= restaurant.reviews.length}
+                  className="bg-blue-500 text-white p-2 rounded-full hover:bg-blue-600 transition-all"
+                >
+                  <FaArrowRight />
+                </button>
+              </div>
             </div>
 
             {/* Close Modal Button for the bottom (optional) */}
