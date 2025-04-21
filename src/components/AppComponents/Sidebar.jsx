@@ -14,7 +14,7 @@ import {
 
 const menuItems = [
   { label: "Guide AI Agent", icon: <User size={20} />, to: "/PromptAgent" },
-  { label: "Plan Trip", icon: <Calendar size={20} />, to: "/plan-trip" },
+  { label: "Plan A Trip", icon: <Calendar size={20} />, to: "/plan-trip" },
   { label: "Favorites", icon: <Star size={20} />, to: "/favorites" },
   { label: "Destinations", icon: <MapPin size={20} />, to: "/PopularDestinations" },
   { label: "Experiences", icon: <Home size={20} />, to: "/experiences" },

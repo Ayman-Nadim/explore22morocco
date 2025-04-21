@@ -92,7 +92,7 @@ const PromptAgent = () => {
               <ChevronLeft className="w-6 h-6 text-gray-700" />
             </button>
             <span className="text-gray-700 font-medium text-sm">
-              Naviguez entre les agents
+              Switch between agents
             </span>
             <button
               onClick={handleNext}
